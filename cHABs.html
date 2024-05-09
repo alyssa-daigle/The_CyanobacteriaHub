@@ -7,23 +7,25 @@
 <body>
     <header>
         <h1>The Cyanobacteria Hub</h1>
-    </header>
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./about.html">General Information</a>
-        <a href="./diversification.html">Diversification</a>
-        <a href="./cHABs.html">cHABs</a>
-        <a href="./biotechnology.html">Biotechnology</a>
-        <a href="./gallery.html">Image Gallery</a>
-        <a href="./references.html">References</a>
-    </nav>
+            <nav class="nav">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">General Information</a>
+                <a href="./diversification.html">Diversification</a>
+                <a href="./cHABs.html">cHABs</a>
+                <a href="./biotechnology.html">Biotechnology</a>
+                <a href="./gallery.html">Image Gallery</a>
+                <a href="./references.html">References</a>
+            </nav>
+    </header>   
+
+<section class="container">
     <center>
-        <h2> Harmful Cyanobacteria Blooms </h2>
+        <h2 class="page-header"> Harmful Cyanobacteria Blooms </h2>
         <p> In freshwater and marine ecosystems, cyanobacteria blooms are common in warmer months and can cause serious threats to human and environmental health. What causes these blooms? How can we detect them? What about preventing them? </p>
     </center>
 
     <h3>What are cHABs? How are they caused?</h3>
-        <p>A harmful cyanobacteria (algal) bloom, also known as cHAB, is the extensive growth of cyanobacteria in aquatic environments as a result of high nutrient inputs and excess warmth and sunlight. This growth manifests as dense mats either on the water's surface or at the bottom of lakes. Blooms are often visible from the surface and can present in a variety of colors. In freshwater systems, the blooms are green or blue. In marine systems, the blooms are red (also referred to as Red Tide) (Wood et al., 2016). </p>
+        <p> <img class="bloom" src="./images/bloom.jpeg"> A harmful cyanobacteria (algal) bloom, also known as cHAB, is the extensive growth of cyanobacteria in aquatic environments as a result of high nutrient inputs and excess warmth and sunlight.   This growth manifests as dense mats either on the water's surface or at the bottom of lakes. Blooms are often visible from the surface and can present in a variety of colors. In freshwater systems, the blooms are green or blue. In marine systems, the blooms are red (also referred to as Red Tide) (Wood et al., 2016).</p> 
 
         <p>Under these productive conditions, cyanobacteria can produce a wide range of toxic secondary metabolites, referred to as cyanotoxins. A wide variety of toxins exist that are produced by various taxa. Hence, these toxic compounds can fall under many categories, such as alkaloids, lipidic compounds, or peptides. Though not well understood, it is believed that cyanobacteria produce toxins for a competitive advantage or cellular defense in response to competition from grazing or resource scarcity (Dittman et al., 2013).   </p>
 
@@ -36,20 +38,15 @@
     <h3>Bloom Dynamics</h3>
         <p>The strains and population structure of cyanobacteria present in a bloom can alter its dynamics. Sogge et al., 2013, studied a bloom-forming genus called Planktothrix in Norwegian lakes to understand how bloom populations vary across lakes. By analyzing NRPS genes as markers for toxin-production, the researchers found that the different lakes contained a similar structure of Planktothrix variants. They also found low genetic diversity within variants compared to between-variants, verifying the distinctness of the variants. The gene analysis also revealed that new variants resulted from recombination events between Planktothrix variants (Stogge et al., 2013). From studies like this one, we see the influence of microbial evolution, gene flow, and dispersal mechanisms on microbial population such as cyanobacteria blooms.   </p>
 
-        <p>Quorum sensing is predicted to play an important role in cyanobacteria bloom formation. Blooms are formed when cyanobacteria rapidly grow and aggregate into a surface mat similar to a biofilm. It is predicted that AHLs (acyl-homoserines lactone), signaling molecules that are potentially present in cyanobacteria environments, allow cyanobacterial cells to communicate with each other and form blooms as well as regulate cell growth, metabolism, and other "group behaviors." Some microbes can produce metabolites that block binding sites and prevent quorum sensing from occurring to better compete with other microbes. Hence, a possible way to mitigate blooms is by utilizing artificially produced quenching quorum signaling molecules, proposed by Yan et al., 2023. The study analyzed a signaling molecule in Microcystis, a bloom-forming genus, to determine its ability to prevent the aggregation of Microcystis cells in a toxic bloom. Upon implementation of the signaling molecule FN, Microcystis growth was inhibited and programmed cellular death was even induced. Further analysis concluded that this molecule was successfully blocking the quorum sensing receptor protein. The utilization of FN, which is nontoxic and naturally occurring, could provide a solution to toxic cyanobacteria blooms (Yan et al., 2023). <p>
-
-        <p>The figure below from Yan et al., 2023, shows the 3 quorum sensing inhibitors tested in this study. In blue, FN proves to be the most effective and also least toxic molecule, proving to be a potential bloom solution. </p>
-            <img src="./images/FN.png" class="images">
+        <p>Quorum sensing is predicted to play an important role in cyanobacteria bloom formation. Blooms are formed when cyanobacteria rapidly grow and aggregate into a surface mat similar to a biofilm. <img class="FN" src="./images/FN.png">It is predicted that AHLs (acyl-homoserines lactone), signaling molecules that are potentially present in cyanobacteria environments, allow cyanobacterial cells to communicate with each other and form blooms as well as regulate cell growth, metabolism, and other "group behaviors." Some microbes can produce metabolites that block binding sites and prevent quorum sensing from occurring to better compete with other microbes. Hence, a possible way to mitigate blooms is by utilizing artificially produced quenching quorum signaling molecules, proposed by Yan et al., 2023. The study analyzed a signaling molecule in Microcystis, a bloom-forming genus, to determine its ability to prevent the aggregation of Microcystis cells in a toxic bloom. Upon implementation of the signaling molecule FN, Microcystis growth was inhibited and programmed cellular death was even induced. Further analysis concluded that this molecule was successfully blocking the quorum sensing receptor protein. The utilization of FN, which is nontoxic and naturally occurring, could provide a solution to toxic cyanobacteria blooms (Yan et al., 2023). This figure from Yan et al., 2023, shows the 3 quorum sensing inhibitors tested in this study. In blue, FN proves to be the most effective and also least toxic molecule, proving to be a potential bloom solution. </p>
 
     <h3>Detecting Blooms</h3>
         <p>To prevent toxic cyanobacteria blooms from inflicting human harm, the prediction of blooms is something that should be implemented in water quality monitoring programs. Typically, visual identification of blooms (microscopy) and toxic analyses (ELISA) are used to determine risks to safety. However, it may be beneficial to implement molecular analyses to detect the presence of toxic cyanobacteria. DNA detection methods are often more specific, more sensitive, and faster (Ouellette and Wilhelm, 2003). For example, targeting toxin biosynthesis genes, such as mcy genes for microcystins in Microcystis and Planktothrix, can provide insight regarding the potential presence or absence of a microcystin-producing cyanobacterium in any given sample (Nishizawa er al., 1999; Tillett et al., 2000; Nishizawa et al., 2000; Christiansen et al., 2003). Although not all cyanobacteria produce toxins, it’s important that any detection of a toxin gene be treated as a potential threat. </p>
 
     <h3>Bloom Mitigation</h3>
+        <p>Although toxic cyanobacteria blooms are dangerous and inconvenient, there are many potential methods for mitigating their occurrence. The reduction of excess nitrogen and phosphorus inputs into waterways would prevent the excessive cyanobacterial growth that leads to toxic blooms. Increased flushing, enhanced mixing, and ultrasonic waves would create shorter water residence times, preventing too much cyanobacterial growth in one location. Manipulating food web dynamics would allow filtering and consumption of cHABs (although this may pose a trophic risk). Nutrient removal would stabilize the nutrient availability to cyanobacteria, preventing their overgrowth. Chemical treatments could kill cyanobacterial growth. Submerged aquatic plants could be implemented to aid in nutrient removal. Finally, bottom sediments could be removed to reduce internal nutrient loading (Paerl et al., 2016). These mitigation methods can be utilized individually or together, but treatments for individual lakes may vary depending on specific needs. Image from Paerl et al., 2016.</p>
 
-<p>Although toxic cyanobacteria blooms are dangerous and inconvenient, there are many potential methods for mitigating their occurrence. The reduction of excess nitrogen and phosphorus inputs into waterways would prevent the excessive cyanobacterial growth that leads to toxic blooms. Increased flushing, enhanced mixing, and ultrasonic waves would create shorter water residence times, preventing too much cyanobacterial growth in one location. Manipulating food web dynamics would allow filtering and consumption of cHABs (although this may pose a trophic risk). Nutrient removal would stabilize the nutrient availability to cyanobacteria, preventing their overgrowth. Chemical treatments could kill cyanobacterial growth. Submerged aquatic plants could be implemented to aid in nutrient removal. Finally, bottom sediments could be removed to reduce internal nutrient loading (Paerl et al., 2016). These mitigation methods can be utilized individually or together, but treatments for individual lakes may vary depending on specific needs. </p>
-<img src="./images/mitigation.jpg" class="images">
-
-    </body>
+        <center> <img class="mitigation" src="./images/mitigation.jpg"> </center>
 
 <h4>Section References</h4>
 <p>Caller, T. A., Doolin, J. W., Haney, J. F., Murby, A. J., West, K. G., Farrar, H. E., Ball, A., Harris, B. T., & Stommel, E. W. (2009). A cluster of amyotrophic lateral sclerosis in New Hampshire: A possible role for toxic cyanobacteria blooms. Amyotrophic Lateral Sclerosis, 10(sup2), 101–108. 
@@ -64,3 +61,6 @@ Tillett, D., Dittmann, E., Erhard, M., Von Döhren, H., Börner, T., & Neilan, B
 Wood, R. (2016). Acute animal and human poisonings from cyanotoxin exposure—A review of the literature. Environment International, 91, 276–282. 
 Yan, G., Fu, L., Ming, H., Chen, C., & Zhou, D. (2023). Exploring an Efficient and Eco-Friendly Signaling Molecule and Its Quorum Quenching Ability for Controlling Microcystis Blooms. Environmental Science & Technology, 57(44), 16929–16939. 
 </p>
+</section>
+
+</body>
