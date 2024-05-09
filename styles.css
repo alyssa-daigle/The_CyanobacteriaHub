@@ -34,7 +34,7 @@ section {
 footer {
     background-color: #689676;
     color: #fff;
-    padding: 1px 0;
+    padding: 1.5x ;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -84,4 +84,15 @@ footer {
 
 .page-header {
     font-size: 1.75em
+}
+
+a {
+    color: #086c3d;
+}
+
+.references {
+    font-size: small;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
 }
