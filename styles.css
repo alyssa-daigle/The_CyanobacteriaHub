@@ -136,3 +136,6 @@ a {
     padding: 1.5em;
 }
 
+.icon {
+    filter: drop-shadow(2px 2px 2px #000);
+}
